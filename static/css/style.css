@@ -205,6 +205,47 @@ section#about .col:nth-child(2) ul li {
 	padding-bottom: 17px;
 }
 
+#grid {
+    margin: 60px 30px;
+}
+
+#grid .grid-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid .grid-nav a {
+    margin: 0px 20px;
+}
+
+#grid .grid-nav .grid-btn {
+    background-color: #da3936;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    border: none;
+}
+
+#grid .grid-images {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grid .grid-images .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 30%;
+}
+
+#grid .grid-images .col img {
+    height: min-content;
+    margin: 10px;
+}
+
 #footer .container {
 	background: #515d6a;
 	padding: 30px 60px;
