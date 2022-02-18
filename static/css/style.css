@@ -32,6 +32,7 @@ a {
     top: 0px;
     padding: 0px 20px;
     border-bottom: transparent 2px solid;
+    z-index: 50;
 }
 
 .navbar ul {
@@ -93,7 +94,7 @@ a {
     width: 100%;
 }
 
-.hero * {
+.hero .carousel-indicators *, .hero .content * {
     z-index: 1;
 }
 
@@ -117,4 +118,43 @@ a {
 
 .hero .carousel-indicators .indicator:nth-child(3) {
     background-color: #da3742;
+}
+
+section#about .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+section#about .col {
+    flex: 50%;
+    padding: 0px 50px;
+}
+
+section#about .container .col:nth-child(1) p:nth-of-type(1) {
+    line-height: 3.6rem;
+    font-size: 2.8rem;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+section#about .container p {
+    font-size: 1.2em;
+}
+
+section#about .col:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+section#about .col:nth-child(2) ul {
+    margin: 20px 10px;
+    font-size: 1rem;
+    list-style-image: url("../img/double-tick.svg");
+}
+
+section#about .col:nth-child(2) ul li{
+    margin: 0px 10px;
 }
