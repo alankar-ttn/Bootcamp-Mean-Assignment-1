@@ -1,24 +1,24 @@
 .btn {
-    background-color: #da3936;
-    color: #fff;
-    border-radius: 3px;
-    margin: 0px 10px;
-    padding: 10px 20px;
-    border: none;
+	background-color: #da3936;
+	color: #fff;
+	border-radius: 3px;
+	margin: 0px 10px;
+	padding: 10px 20px;
+	border: none;
 }
 
 .text-primary {
-    color: #52606f;
+	color: #52606f;
 }
 
 .text-secondary {
-    color: #69869b;
+	color: #69869b;
 }
 
 .footer-heading {
-    color: #fff;
+	color: #fff;
 }
 
 .footer-content {
-    color: #d1d1d1;
+	color: #d1d1d1;
 }
