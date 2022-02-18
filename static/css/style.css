@@ -163,10 +163,43 @@ section#about .col:nth-child(2) ul li{
     background-color: #f8f9fa;
 }
 
-#partner .partner__container {
+#partner .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
     padding: 0px 30px;
+}
+
+#services .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 70px;
+}
+
+#services .container .service-item {
+    flex: 40%;
+    height: 160px;
+    width: 100%;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    background: #f8f9fa;
+    display: flex;
+}
+
+#services .container .service-item .service-content {
+    padding: 0px 20px;
+}
+
+#services .container .service-item .service-content p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 17px;
+}
+
+#services .container .service-item .service-content p:nth-of-type(2) {
+    font-size: 0.9em;
+    padding-bottom: 17px;
 }
